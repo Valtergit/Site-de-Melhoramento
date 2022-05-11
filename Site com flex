@@ -1,0 +1,152 @@
+/*  HTML  */
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para acesso</title>
+    <link rel="stylesheet" href="sites.css">
+</head>
+<body>
+    <header class="header">
+        <a href="logo">Logo</a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="fullstack">jogo</a>
+                </li>
+
+                    <li>
+                        <a href="fullfront">trabalho</a>
+                    </li>  
+
+                <li>
+                    <a href="fullback">camrrise</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+   
+
+    <div class="formulario">
+         <p>
+             <label for="name">nome:</label>
+             <input type="text" name="name" value="Digite seu nome">
+            
+            </p>
+
+            <p>
+                <label for="email" >email:</label>
+                <input type="email" name="email" value="Digite seu email">
+            </p>
+
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" value="digite sua senha">
+            </p>
+
+           <a href="site"><button>Entre</button></a>
+
+    </div>
+
+
+ 
+
+     
+    
+</body>
+</html>
+
+
+/* CSS  */
+
+
+
+@charset "UTF-8";
+
+body, ul, li, p{
+    margin: 0px white;
+    padding: 0px;
+    list-style:none;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    text-decoration: underline rgb(17, 14, 14) 2px;
+   
+    
+}
+body{
+    background: url(freeimages-imagem.jpg);
+    background-size: cover;
+}
+
+.header{
+    background: rgb(20, 20, 20);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+ 
+}
+
+.menu{
+display: flex;
+background-size: none;
+}
+.menu li{
+    margin-left: 10px;
+   
+    background-size: none;
+}
+
+.menu li, a{
+   
+    padding: 5px;
+    display: block;
+  
+ 
+   
+}
+
+
+/* CSS Flexbox */
+
+
+.formulario input{
+
+    padding: 3px;
+    justify-content: end;
+   display: flex;
+    text-align: center;
+    
+   
+}
+
+div{
+    justify-content: space-between;
+}
+
+button{
+  
+    color: aliceblue;
+    background: blue;
+    border: 3px ridge tomato;
+    box-shadow: 30%;
+   border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    padding: 3px;
+    
+    
+    
+    
+   
+}
