@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para acesso</title>
+    <link rel="stylesheet" href="sites.css">
+</head>
+<body>
+    <header class="header">
+        <a href="logo.html" id="one">Logo</a>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="fullstack">ANIMAIS</a>
+                </li>
+
+                    <li>
+                        <a href="fullfront">O QUE É?</a>
+                    </li>  
+
+                <li>
+                    <a href="fullback">DISCORD</a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+   
+
+    <div class="formulario">
+         <p>
+             <label for="name">nome:</label>
+             <input type="text" name="name" value="Digite seu nome">
+            
+            </p>
+
+            <p>
+                <label for="email" >email:</label>
+                <input type="email" name="email" value="Digite seu email">
+            </p>
+
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" value="digite sua senha">
+            </p>
+
+           <a href="site"><button>Entre</button></a>
+
+    </div>
+
+
+    <div class="textos">
+  
+        <p>
+            <label for="text">Assinale o tigre com maior largura":</label>
+            
+             
+        </p>
+
+        <p>
+            <label for="text" class="sun"> Tigre siberiano</label>
+            <input type="checkbox" name="" id="Tigre siberiano">
+            <img src="Tiger-3.jpg.crdownload" alt="tigre siberiano" class="sun">
+        </p>
+
+          <p>
+              <label for="text" class="sun">Tigre Indochinês</label>
+              <input type="checkbox" name="" id="Tigre Indochinês">
+              <img src="tiger4.jpg" alt="tigre siberiano" class="sun">
+          </p>
+          
+          <p>
+              <label for="text" class="sun">Tigre de Sumatra</label>
+              <input type="checkbox" name="" id="Tigre de Sumatra">
+              <img src="40.jpg" alt="tigre siberiano" class="sun">
+          </p>
+
+          <p>
+              <label for="text" class="sun">Tigre de Bengala</label>
+              <input type="checkbox" name="Tigre de Bengala" id="Tigre de Bengala">
+              <img src="tiger-2.jfif" alt="tigre siberiano" class="sun">
+          </p>
+          
+      
+    </div>
+    
+     <div class="bad">
+         <p class="bad">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut praesentium ipsa voluptatibus, adipisci tempore nulla. Totam autem ipsam reiciendis, aperiam tempora accusamus cupiditate explicabo. Quos mollitia ipsum assumenda quisquam distinctio.</p>
+     </div>
+     <div class="bad">
+      <p class="bad">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, ipsum inventore! Modi id ducimus neque ipsa eum ullam sequi! Architecto quibusdam sint ex? Totam repudiandae aspernatur, laudantium vero doloribus quis.</p>
+     </div>
+     
+    
+</body>
+</html>
+
+
+/*  CSS  */
+
+
+
+/* CSS */
+
+@charset "UTF-8";
+
+body, ul, li, p{
+    margin: 0px white;
+    padding: 0px;
+    list-style:none;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+   
+    
+}
+body{
+    background: url(tiger-2.jfif);
+    background-size: cover;
+}
+
+.header{
+    background: rgb(0, 255, 200);
+    background: linear-gradient(rgba(0, 255, 255, 0.932), rgba(28, 255, 28, 0.979));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+    border:3px solid black;
+    background-image: none;
+    background: linear-gradient(rgba(0, 255, 55, 0.185), rgba(0, 255, 42, 0.212));
+   
+}
+.header a{
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(rgb(253, 253, 253), rgba(255, 255, 255, 0.842));
+    border: 2px solid rgba(117, 56, 6, 0);
+    padding: 4px;
+    box-shadow: 5px 5px 40px 7px rgb(0, 238, 255);
+    
+}
+#one{
+    background: linear-gradient(rgb(240, 240, 240), rgb(0, 255, 0)
+    );
+}
+
+.menu{
+display: flex;
+background-size: none;
+}
+.menu li{
+    margin-left: 10px;
+   
+    background-size: none;
+}
+
+.menu li, a{
+   
+    padding: 5px;
+    display: block;
+  
+ 
+   
+}
+/* CSS Flexbox */
+
+
+.formulario input{
+
+    padding: 3px;
+    justify-content: end;
+   display: flex;
+    text-align: center;
+    
+   
+}
+
+div{
+    background-color: aquamarine;
+    width: 179px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 230px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(89, 224, 248, 0.781), rgb(174, 232, 247));
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+}
+
+button{
+  
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    border: 3px ridge rgb(0, 0, 0);
+    box-shadow: 30%;
+   border-radius: 10px;
+    width: 110px;
+    height: 30px;
+    padding: 2px;
+   
+}
+.formulario label{
+    color: black;
+}
+.textos sun{
+    background-color: aquamarine;
+    width: 170px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 400px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(89, 224, 248, 0.781), rgb(174, 232, 247));
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+    width: 300px;
+    display: block;
+    justify-content:space-between;
+    text-align: center;
+}
+textarea{
+    width: 170px;
+}
+
+.textos label input{
+
+  display: block;
+   
+
+
+}
+
+.textos img{
+    width: 179px;
+
+}
+
+.bad p{
+text-align: left;
+
+    
+}
+/* flex */
+
+
+
+
+
+
